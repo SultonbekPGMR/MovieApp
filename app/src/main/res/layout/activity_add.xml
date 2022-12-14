@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".ui.AddActivity">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_back"
+        android:gravity="top"
+        android:hint="Movie name"
+        android:padding="5dp"
+        android:paddingStart="20dp"
+        android:inputType="text"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/edt_actors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_back"
+        android:gravity="top"
+        android:hint="Movie Actors"
+        android:padding="5dp"
+        android:paddingStart="20dp"
+        android:inputType="text"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_about"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_weight="3"
+        android:background="@drawable/edit_back"
+        android:gravity="top"
+        android:hint="About movie"
+        android:padding="5dp"
+        android:paddingStart="20dp"
+        android:inputType="textImeMultiLine"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_back"
+        android:gravity="top"
+        android:hint="Movie date"
+        android:padding="5dp"
+        android:paddingStart="20dp"
+        android:inputType="date"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

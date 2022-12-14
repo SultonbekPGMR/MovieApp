@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".ui.EditActivity">
+
+    <TextView
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="Movie name:"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/edt_actors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1.5"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="fwnouinofini neow"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/edt_about"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="fwnouinofini neow"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="fwnouinofini neow"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"/>
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="end"
+        android:layout_margin="20dp"
+        android:text="Close"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
